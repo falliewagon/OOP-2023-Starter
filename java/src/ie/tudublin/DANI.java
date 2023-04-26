@@ -26,6 +26,11 @@ public class DANI extends PApplet {
        
 	}
 
+	public void loadFile()
+	{
+		String arrayString[] = loadStrings("shakespeare.txt");
+	}
+
 	public void keyPressed() {
 
 	}
