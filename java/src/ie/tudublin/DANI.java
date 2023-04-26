@@ -21,6 +21,8 @@ public class DANI extends PApplet{
 
 	public void setup() {
 		colorMode(HSB);
+
+		//sonnet = loadFile();
 	}
 
 	public void keyPressed() {
@@ -31,12 +33,21 @@ public class DANI extends PApplet{
 
 	}
 
+	/* 
+
 	public void loadFile()
 	{
-
+		String[] words = loadStrings("small.txt");
+		int count = 0;
+		for (String line : words) {
+			String[] splitLine = split(line, " ");
+			for (String word : splitLine) {
+				count = count + 1;
+			}
+		}
 	}
 
-	//End Code
+	*/
 
 	float off = 0;
 
