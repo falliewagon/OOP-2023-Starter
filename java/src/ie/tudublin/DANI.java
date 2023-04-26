@@ -21,13 +21,6 @@ public class DANI extends PApplet{
 
 	public void setup() {
 		colorMode(HSB);
-
-    	loadFile();
-	}
-
-	public void loadFile()
-	{
-		sonnet = loadStrings("shakespeare.txt");
 	}
 
 	public void keyPressed() {
@@ -35,6 +28,11 @@ public class DANI extends PApplet{
 		{
 
 		}
+
+	}
+
+	public void loadFile()
+	{
 
 	}
 
@@ -49,6 +47,8 @@ public class DANI extends PApplet{
 		noStroke();
 		textSize(20);
         textAlign(CENTER, CENTER);
-		
+
+
+		//loadFile();
 	}
 }
